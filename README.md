@@ -18,3 +18,8 @@ OpenIslam logo
 
 ## ico
 ![icon.ico](icon.ico)
+
+### Create `ico` from `svg`?
+```shell
+convert -density 384 logo.svg -define icon:auto-resize icon.ico
+```
